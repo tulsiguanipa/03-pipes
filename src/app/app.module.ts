@@ -10,13 +10,15 @@ import { AppComponent } from './app.component';
 import localeEs from '@angular/common/locales/es';
 import { registerLocaleData } from '@angular/common';
 import { DonseguroPipe } from './pipes/donseguro.pipe';
+import { ContrasenaPipe } from './pipes/contrasena.pipe';
 registerLocaleData(localeEs);
 
 @NgModule({
   declarations: [
     AppComponent,
     CapitalizadoPipe,
-    DonseguroPipe
+    DonseguroPipe,
+    ContrasenaPipe
   ],
   imports: [
     BrowserModule

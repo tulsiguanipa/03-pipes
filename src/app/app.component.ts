@@ -30,6 +30,8 @@ export class AppComponent {
 
   video = "ahCn0DR8vmM";
 
+  activar:boolean = true;
+
   
   valorDePromesa = new Promise( ( resolve, reject ) =>{
     setTimeout( ()=> resolve('Llegó la promesa'), 3500 );
