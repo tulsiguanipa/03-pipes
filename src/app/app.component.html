@@ -19,17 +19,7 @@
     </tr>
     <tr>
       <td>{{ nombre }}</td>
-      <td>Lowerrcase</td>
-      <td>{{ nombre | lowercase}}</td>
-    </tr>
-    <tr>
-      <td>{{ nombre }}</td>
-      <td>Lowerrcase</td>
-      <td>{{ nombre | lowercase}}</td>
-    </tr>
-    <tr>
-      <td>{{ nombre }}</td>
-      <td>Lowerrcase</td>
+      <td>Lowercase</td>
       <td>{{ nombre | lowercase}}</td>
     </tr>
 
@@ -148,7 +138,13 @@
     <tr>
       <td>{{ nombre2 }}</td>
       <td> Capitalizado </td> 
-      <td>{{ nombre2 | capitalizado:1:2:3:4:4:5 }}</td> 
+      <td>{{ nombre2 | capitalizado }}</td> 
+    </tr>
+    
+    <tr>
+      <td>{{ nombre2 }}</td>
+      <td> Capitalizado </td> 
+      <td>{{ nombre2 | capitalizado:false }}</td> 
     </tr>
     
 
@@ -164,11 +160,17 @@
 <h4> JSON </h4>
 <pre>
 
+  
+
 {{ heroe | json}}
 
 </pre>
 
+<h1>YouTube <small>video</small></h1>
 
+<hr>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ahCn0DR8vmM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 </div>
