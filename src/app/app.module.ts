@@ -9,12 +9,14 @@ import { AppComponent } from './app.component';
 
 import localeEs from '@angular/common/locales/es';
 import { registerLocaleData } from '@angular/common';
+import { DonseguroPipe } from './pipes/donseguro.pipe';
 registerLocaleData(localeEs);
 
 @NgModule({
   declarations: [
     AppComponent,
-    CapitalizadoPipe
+    CapitalizadoPipe,
+    DonseguroPipe
   ],
   imports: [
     BrowserModule

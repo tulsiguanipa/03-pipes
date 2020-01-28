@@ -28,6 +28,8 @@ export class AppComponent {
 
   fecha = new Date();
 
+  video = "ahCn0DR8vmM";
+
   
   valorDePromesa = new Promise( ( resolve, reject ) =>{
     setTimeout( ()=> resolve('Llegó la promesa'), 3500 );
